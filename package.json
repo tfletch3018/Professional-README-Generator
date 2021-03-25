@@ -1,0 +1,22 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfletch3018/Professional-Readme-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tfletch3018/Professional-Readme-Generator/issues"
+  },
+  "homepage": "https://github.com/tfletch3018/Professional-Readme-Generator#readme"
+}
