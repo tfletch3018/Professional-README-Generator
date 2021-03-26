@@ -73,7 +73,7 @@ inquirer
     console.log(answers);
     const generateMarkdownContent = generateMarkdown(answers);
 
-    fs.writeFile('README.md', generateMarkdownContent, (err) =>
+    fs.writeFile('./sample/README.md', generateMarkdownContent, (err) =>
     err ? console.log(err) : console.log('You have successfully created README.md!')
     )
 });
