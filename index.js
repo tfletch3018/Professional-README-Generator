@@ -1,7 +1,6 @@
 //Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generate = require("./utils/generateMarkdown");
 const { url } = require("inspector");
 const generateMarkdown = require("./utils/generateMarkdown");
 
@@ -61,15 +60,23 @@ inquirer
             name: 'repo',
         },
     ])
-    .then((response) => {
-        console.log(response);
+    // .then((response) => {
+    //     console.log(response);
 
-        const questions = `${response.title.toLowerCase().split(" ").join("")}README.md`
+    //     const questions = `${response.title.toLowerCase().split(" ").join("")}README.md`
 
-        fs.appendFile(questions, JSON.stringify(response, null, '\t'), (err) =>
-            err ? console.error(err) : console.log("created files successfully")
-        )
-    });
+    //     fs.appendFile(questions, JSON.stringify(response, null, '\t'), (err) =>
+    //         err ? console.error(err) : console.log("created files successfully")
+    //     )
+    // });
+.then((answers) => {
+    console.log(answers);
+    const generateMarkdownContent = generateMarkdown(answers);
+
+    fs.writeFile('README.md', generateMarkdownContent, (err) =>
+    err ? console.log(err) : console.log('Successfully created README.md')
+    )
+});
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {
 //     return fs.writeFileSync(join,(fileName), data)
