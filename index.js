@@ -60,15 +60,7 @@ inquirer
             name: 'repo',
         },
     ])
-    // .then((response) => {
-    //     console.log(response);
-
-    //     const questions = `${response.title.toLowerCase().split(" ").join("")}README.md`
-
-    //     fs.appendFile(questions, JSON.stringify(response, null, '\t'), (err) =>
-    //         err ? console.error(err) : console.log("created files successfully")
-    //     )
-    // });
+    
 .then((answers) => {
     console.log(answers);
     const generateMarkdownContent = generateMarkdown(answers);
@@ -77,19 +69,11 @@ inquirer
     err ? console.log(err) : console.log('You have successfully created README.md!')
     )
 });
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-//     return fs.writeFileSync(join,(fileName), data)
 
-//  
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() { 
-//     inquirer.prompt(questions).then((response) => {
-//     console.log('generating file')
-//     writeToFile('README.md', generateMarkdown({...response}))
-//     })
-// }
+
 
 // Function call to initialize app
 init();
