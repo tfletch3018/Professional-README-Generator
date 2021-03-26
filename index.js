@@ -25,13 +25,13 @@ inquirer
         {
             type: 'input',
             message: 'Please enter usage information',
-            name: 'usage',
+            name: 'usageInfo',
         },
         {
             type: 'list',
             message: 'Please select a license',
             name: 'license',
-            choices: [url("")]
+            choices: ['MIT', 'GNU', 'APACHE'],
         },
         {
             type: 'input',
