@@ -3,6 +3,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generate = require("./utils/generateMarkdown");
 const { url } = require("inspector");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 //Create an array of questions for user input
 inquirer
@@ -25,7 +26,7 @@ inquirer
         {
             type: 'input',
             message: 'Please enter usage information',
-            name: 'usageInfo',
+            name: 'usage',
         },
         {
             type: 'list',
@@ -63,17 +64,26 @@ inquirer
     .then((response) => {
         console.log(response);
 
-        const questions = `${response.title.toLowerCase().split(" ").join("")}.json`
+        const questions = `${response.title.toLowerCase().split(" ").join("")}README.md`
 
         fs.appendFile(questions, JSON.stringify(response, null, '\t'), (err) =>
             err ? console.error(err) : console.log("created files successfully")
         )
     });
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+// function writeToFile(fileName, data) {
+//     return fs.writeFileSync(join,(fileName), data)
+
+//  
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() { 
+//     inquirer.prompt(questions).then((response) => {
+//     console.log('generating file')
+//     writeToFile('README.md', generateMarkdown({...response}))
+//     })
+// }
 
 // Function call to initialize app
 init();
+}

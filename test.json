@@ -9,4 +9,15 @@
 	"tests": "test",
 	"username": "tfletch3018",
 	"repo": "link"
+}{
+	"title": "test",
+	"description": "des",
+	"installation": "is",
+	"usageInfo": "info",
+	"license": "GNU",
+	"badge": "gnuBadge",
+	"contribution": "gu",
+	"tests": "n",
+	"username": "n",
+	"repo": "d"
 }
