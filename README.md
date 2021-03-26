@@ -1,16 +1,16 @@
-# PROJECT2
+# project2
 
   ## Description
 
-  d
+  des
 
   ## Installation
 
-  s
+  install
 
   ## Usage
 
-s
+info
 
   ## License
 
@@ -22,16 +22,16 @@ mitBadge
 
   ## Contributors
 
-f
+guide
 
   ## Tests
 
-  d
+  ins
 
   ## Username
 
-s
+tfletch3018
 
   ## Repo
   
-  a
+  repo
