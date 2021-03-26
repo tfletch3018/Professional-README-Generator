@@ -34,9 +34,10 @@ inquirer
             choices: ['MIT', 'GNU', 'APACHE'],
         },
         {
-            type: 'input',
+            type: 'list',
             message: 'Please select a badge',
             name: 'badge',
+            choices: ['mitBadge', 'gnuBadge', 'apacheBadge'],
         },
         {
             type: 'input',
