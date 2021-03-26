@@ -51,10 +51,13 @@ You are required to submit the following for review:
 
 * A walkthrough video demonstrating the functionality of the application.
 
+<iframe src="https://drive.google.com/file/d/1KpYeyFz5NakSGlhxa3MCbZiZe1ETtLwO/preview" width="640" height="480"></iframe>
+
 * A sample README.md file for a project repository generated using your application
 
 * The URL of the GitHub repository, with a unique name and a README describing the project
 
+https://github.com/tfletch3018/Professional-Readme-Generator
 ---
 
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
