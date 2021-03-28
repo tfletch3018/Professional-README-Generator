@@ -1,4 +1,4 @@
-module.exports.licenses = {
+module.exports = {
     mit: `MIT License
 
     Copyright (c) [2021] [Tonya Fletcher]
