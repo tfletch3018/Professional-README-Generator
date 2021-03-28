@@ -1,32 +1,56 @@
-# Project Tonya
+# Professional-README-Generator
 
   ## Description
 
-  description
+  An JavaScript language app designed to create READ ME documents for projects
 
   ## Installation
 
-  how to install
+  none
 
   ## Usage
 
-  usage info
+  none
 
   ## License
 
-  MIT
+  MIT License
+
+    Copyright (c) [2021] [Tonya Fletcher]
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+# Professional-README-Generator
+$  
 
   ## Badge
 
-  mitBadge
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Professional-README-Generator
+$
 
   ## Contributors
 
-  no
+  none
 
   ## Tests
 
-  instructions
+  none
 
   ## Username
 
@@ -34,4 +58,4 @@
 
   ## Repo
   
-  Professional Readme 
+  https://github.com/tfletch3018/Professional-Readme-Generator

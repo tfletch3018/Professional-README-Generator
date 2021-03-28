@@ -1,4 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
+
+const licenses = require("./licenses")
+
 // If there is no license, return an empty string
 function renderLicenseBadge(license) { }
 
@@ -28,11 +31,15 @@ function generateMarkdown(data) {
 
   ## License
 
-  ${data.license}
+  ${licenses[data.license.toLowerCase()]}\n${
+  data.title ? `# ${data.title}` : ""
+  }\n$  
 
   ## Badge
 
-  ${data.badge}
+  ${licenses[data.license.toLowerCase() + "Badge"]}\n${
+    data.title ? `# ${data.title}` : ""
+  }\n$
 
   ## Contributors
 
