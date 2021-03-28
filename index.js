@@ -3,6 +3,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const { url } = require("inspector");
 const generateMarkdown = require("./utils/generateMarkdown");
+const licenses = require("./utils/licenses");
 
 //Create an array of questions for user input
 inquirer
@@ -31,7 +32,7 @@ inquirer
             type: 'list',
             message: 'Please select a license',
             name: 'license',
-            choices: ['MIT', 'GNU', 'APACHE'],
+            choices: ['mit', 'apache', 'gnu'],
         },
         {
             type: 'list',

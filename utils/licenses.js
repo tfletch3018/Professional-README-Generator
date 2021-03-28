@@ -1,5 +1,5 @@
-module.exports = {
-    mitLicense: `MIT License
+module.exports.licenses = {
+    mit: `MIT License
 
     Copyright (c) [2021] [Tonya Fletcher]
     
@@ -20,7 +20,7 @@ module.exports = {
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.`,
-apacheLicense: `                                 Apache License
+apache: `                                 Apache License
 Version 2.0, January 2004
 http://www.apache.org/licenses/
 
@@ -221,7 +221,7 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.`,
-gnuLicense: `                    GNU GENERAL PUBLIC LICENSE
+gnu: `                    GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
 
 Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
